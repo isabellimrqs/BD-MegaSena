@@ -76,7 +76,7 @@ class Web:
         if opcaoPlan == 'S':
             try:
                 planilha = pd.DataFrame(matriz)
-                planilha.to_excel('C:/Usuários/4459091780X/Desktop/Mega.xlsx')
+                planilha.to_excel('C:/Usuários/XXXXXXXXXX/Desktop/Mega.xlsx')
             except:
                 print('A planilha não foi gerada...')
 
